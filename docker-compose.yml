@@ -13,8 +13,7 @@ services:
 
   # Application service layer
   c:
-    build:
-      context: ./c
+    image: imacellone/cwf-helloworld:1.0
     volumes:
       - "./app:/var/www/html"
     ports:
