@@ -1,0 +1,37 @@
+Date: 06/11/2019 22:30:55:007
+Category: default
+File: 
+Function: 
+Version: 2
+Message: Server online
+
+
+Date: 06/11/2019 22:31:37:075
+Category: default
+File: 
+Function: 
+Version: 2
+Message: Server online
+
+
+Date: 06/11/2019 22:31:46:276
+Category: default
+File: 
+Function: 
+Version: 2
+Message: "GET / HTTP/1.1\r\nHost: localhost\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36\r\nSec-Fetch-User: ?1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\nCookie: pma_lang=pt; PHPSESSID=9c1a90588007a5c30c86a3b189dda707; phpMyAdmin=49561223daccbf1b11f25f2b5cfaf079; pmaUser-1=%7B%22iv%22%3A%22I0ofACs7aLCXbUeJM8QUpQ%3D%3D%22%2C%22mac%22%3A%22254cf7e3d23001207f8832cf63e441dc6541893d%22%2C%22payload%22%3A%22QXvFqydZhw0odo0oGySRug%3D%3D%22%7D; pmaAuth-1=%7B%22iv%22%3A%22QGRJYMOXqi6LtWZeneGumQ%3D%3D%22%2C%22mac%22%3A%224c887f8f826657716d225c24ceb7def965d9c964%22%2C%22payload%22%3A%229Ro9pLvSca%2B6Jb3GQzuiUuNUO1wznFJP1wlac%5C%2FRNcE0%3D%22%7D\r\n\r\n"
+
+Date: 06/11/2019 22:31:46:322
+Category: default
+File: 
+Function: 
+Version: 2
+Message: "GET /config/cppwebserverpages/resources/css/cppweb.css HTTP/1.1\r\nHost: localhost\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36\r\nAccept: text/css,*/*;q=0.1\r\nSec-Fetch-Site: same-origin\r\nSec-Fetch-Mode: no-cors\r\nReferer: http://localhost/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\nCookie: pma_lang=pt; PHPSESSID=9c1a90588007a5c30c86a3b189dda707; phpMyAdmin=49561223daccbf1b11f25f2b5cfaf079; pmaUser-1=%7B%22iv%22%3A%22I0ofACs7aLCXbUeJM8QUpQ%3D%3D%22%2C%22mac%22%3A%22254cf7e3d23001207f8832cf63e441dc6541893d%22%2C%22payload%22%3A%22QXvFqydZhw0odo0oGySRug%3D%3D%22%7D; pmaAuth-1=%7B%22iv%22%3A%22QGRJYMOXqi6LtWZeneGumQ%3D%3D%22%2C%22mac%22%3A%224c887f8f826657716d225c24ceb7def965d9c964%22%2C%22payload%22%3A%229Ro9pLvSca%2B6Jb3GQzuiUuNUO1wznFJP1wlac%5C%2FRNcE0%3D%22%7D\r\n\r\n"
+
+Date: 06/11/2019 22:31:46:327
+Category: default
+File: 
+Function: 
+Version: 2
+Message: "GET /config/cppwebserverpages/resources/images/logo.png HTTP/1.1\r\nHost: localhost\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36\r\nAccept: image/webp,image/apng,image/*,*/*;q=0.8\r\nSec-Fetch-Site: same-origin\r\nSec-Fetch-Mode: no-cors\r\nReferer: http://localhost/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\nCookie: pma_lang=pt; PHPSESSID=9c1a90588007a5c30c86a3b189dda707; phpMyAdmin=49561223daccbf1b11f25f2b5cfaf079; pmaUser-1=%7B%22iv%22%3A%22I0ofACs7aLCXbUeJM8QUpQ%3D%3D%22%2C%22mac%22%3A%22254cf7e3d23001207f8832cf63e441dc6541893d%22%2C%22payload%22%3A%22QXvFqydZhw0odo0oGySRug%3D%3D%22%7D; pmaAuth-1=%7B%22iv%22%3A%22QGRJYMOXqi6LtWZeneGumQ%3D%3D%22%2C%22mac%22%3A%224c887f8f826657716d225c24ceb7def965d9c964%22%2C%22payload%22%3A%229Ro9pLvSca%2B6Jb3GQzuiUuNUO1wznFJP1wlac%5C%2FRNcE0%3D%22%7D\r\n\r\n"
+

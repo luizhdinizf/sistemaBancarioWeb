@@ -2,13 +2,11 @@ FROM imacellone/cwf:1.0
 
 LABEL maintainer="imacellone <italomacellone@gmail.com>"
 
-COPY HelloWorldDocker /HelloWorldDocker
 
-WORKDIR /HelloWorldDocker
+RUN ldconfig
 
-RUN qmake HelloWorldDocker.pro
-RUN make
 
-ENTRYPOINT [ "/HelloWorldDocker/HelloWorldDocker" ]
+
+ENTRYPOINT [ "/HelloWorldDocker/entry.sh" ]
 
 EXPOSE 9000

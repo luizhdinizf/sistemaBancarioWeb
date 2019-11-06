@@ -13,7 +13,7 @@ public:
     void doGet(CWF::Request &request, CWF::Response &response) const override
     {
         Q_UNUSED(request)
-        response.write("<html><body>Hello World!</body></html>");
+        response.write("<html><body>Hellso World!</body></html>");
     }
 };
 
