@@ -24,7 +24,7 @@ OTHER_FILES += \
 unix {
     INCLUDEPATH += /usr/lib
     debug {
-        LIBS += -L/usr/lib -lCPPWebFrameworkd
+        LIBS += -L/usr/lib -lCPPWebFramework
     }
     release {
         LIBS += -L/usr/lib -lCPPWebFramework
@@ -34,7 +34,7 @@ unix {
 macx {
     INCLUDEPATH += /usr/local/lib
     debug {
-        LIBS += -L/usr/local/lib -lCPPWebFrameworkd
+        LIBS += -L/usr/local/lib -lCPPWebFramework
     }
     release {
         LIBS += -L/usr/local/lib -lCPPWebFramework
@@ -44,7 +44,7 @@ macx {
 win32 {
     INCLUDEPATH += C:/
     debug {
-        LIBS += -LC:/cwf -lCPPWebFrameworkd
+        LIBS += -LC:/cwf -lCPPWebFramework
     }
     release {
         LIBS += -LC:/cwf -lCPPWebFramework
