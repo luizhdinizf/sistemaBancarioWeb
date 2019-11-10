@@ -46,7 +46,7 @@ int main()
     crow::App<ExampleMiddleware> app;
 
     app.get_middleware<ExampleMiddleware>().setMessage("hello");
-    Connection conn("teste", "bd", "root", "123.456");
+    Connection conn("teste", "localhost", "root", "123.456");
     CROW_ROUTE(app, "/")
         .name("hello")
     ([]{
