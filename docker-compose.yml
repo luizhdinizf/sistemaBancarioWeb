@@ -1,38 +1,39 @@
 version: "3" 
 services:
   # Application service layer
-  c:
+  sql:
     build:
-      context: ./c
+      context: ./sql
     volumes:
-      - "./c/HelloWorldDocker:/HelloWorldDocker"
+      - "./sql/crow/src:/crow"
     ports:
       - "80:9000"
     depends_on:
-      - mysql
+      - bd
+    restart: on-failure
     environment:
       - MYSQL_USER=root
       - MYSQL_PASS=123.456
  
   # Data persistence service layer
-  mysql:
-    image: mysql:5.7.20
+  bd:
+    image: mysql:5.6
     volumes:
       - "db_data:/var/lib/mysql"
-      - "./mysql/initial_data:/docker-entrypoint-initdb.d"
     ports:
       - "3306:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=123.456
+      - MYSQL_DATABASE=teste
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     links:
-      - mysql
+      - bd
     ports:
       - 801:80
     environment:
-      - PMA_HOST=mysql
+      - PMA_HOST=bd
 
   theia:
     image: theiaide/theia
